@@ -8,7 +8,6 @@
 	(property "Reference" "Ref***"
 		(at -0.00012 1.7786 180)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "6a530739-b8c5-4c53-90c4-7051962bb210")
 		(effects
 			(font
@@ -19,9 +18,8 @@
 		)
 	)
 	(property "Value" "1N4148"
-		(at -3.556 0 90)
+		(at -2.6 0 90)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e25f4e55-2d31-455f-8374-26efe9211931")
 		(effects
 			(font
