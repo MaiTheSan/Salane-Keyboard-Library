@@ -1,4 +1,4 @@
-(footprint "SLSS49E_MX_7U"
+(footprint "SLSS49E_MX_7U-ReversedStabilizers"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -118,20 +118,9 @@
 		(uuid "f5b64683-654a-489b-88e0-f8c7f04a21df")
 	)
 	(fp_arc
-		(start -56.151051 10.255525)
-		(mid -57.150587 10.491068)
-		(end -58.15 10.255)
-		(stroke
-			(width 0.5)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "1e8d326e-3873-4414-a629-1325c65e84be")
-	)
-	(fp_arc
-		(start 58.148949 10.255525)
-		(mid 57.149413 10.491068)
-		(end 56.15 10.255)
+		(start -58.148949 -10.255525)
+		(mid -57.149413 -10.491068)
+		(end -56.15 -10.255)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -139,20 +128,20 @@
 		(layer "F.SilkS")
 		(uuid "fca5433a-3c71-4d18-8324-1a1beab23882")
 	)
-	(fp_circle
-		(center -57.15 -6.985)
-		(end -58.9 -6.985)
+	(fp_arc
+		(start 56.151051 -10.255525)
+		(mid 57.150587 -10.491068)
+		(end 58.15 -10.255)
 		(stroke
 			(width 0.5)
 			(type solid)
 		)
-		(fill none)
 		(layer "F.SilkS")
-		(uuid "7369b576-4570-4ef6-9b12-822e302c98bf")
+		(uuid "1e8d326e-3873-4414-a629-1325c65e84be")
 	)
 	(fp_circle
-		(center 57.15 -6.985)
-		(end 55.4 -6.985)
+		(center -57.15 6.985)
+		(end -55.4 6.985)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -160,6 +149,17 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "87d6e812-20e5-4803-8a6c-6e87d29a9ff1")
+	)
+	(fp_circle
+		(center 57.15 6.985)
+		(end 58.9 6.985)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "7369b576-4570-4ef6-9b12-822e302c98bf")
 	)
 	(fp_line
 		(start -66.675 -9.525)
@@ -436,18 +436,18 @@
 		(uuid "df2f3d5a-b36b-495a-b4f9-0114698083e2")
 	)
 	(pad "" np_thru_hole circle
-		(at -57.15 -6.985)
-		(size 3.048 3.048)
-		(drill 3.048)
-		(layers "*.Cu" "*.Mask")
-		(uuid "3d798414-5ab0-4c37-a854-b2934cc0a7e0")
-	)
-	(pad "" np_thru_hole circle
-		(at -57.15 8.255)
+		(at -57.15 -8.255 180)
 		(size 3.9878 3.9878)
 		(drill 3.9878)
 		(layers "*.Cu" "*.Mask")
-		(uuid "19200dc7-4c6b-44a0-becb-d684f8ed366b")
+		(uuid "2cdf181e-43b5-44cd-a54b-71ffefcf79b3")
+	)
+	(pad "" np_thru_hole circle
+		(at -57.15 6.985 180)
+		(size 3.048 3.048)
+		(drill 3.048)
+		(layers "*.Cu" "*.Mask")
+		(uuid "ae74dfd8-b5af-4c67-ac59-975d29e47dbf")
 	)
 	(pad "" np_thru_hole circle
 		(at -5.08 0)
@@ -464,18 +464,18 @@
 		(uuid "1c8d54fa-1b40-43f5-8ecd-b143a73664c8")
 	)
 	(pad "" np_thru_hole circle
-		(at 57.15 -6.985)
-		(size 3.048 3.048)
-		(drill 3.048)
-		(layers "*.Cu" "*.Mask")
-		(uuid "ae74dfd8-b5af-4c67-ac59-975d29e47dbf")
-	)
-	(pad "" np_thru_hole circle
-		(at 57.15 8.255)
+		(at 57.15 -8.255 180)
 		(size 3.9878 3.9878)
 		(drill 3.9878)
 		(layers "*.Cu" "*.Mask")
-		(uuid "2cdf181e-43b5-44cd-a54b-71ffefcf79b3")
+		(uuid "19200dc7-4c6b-44a0-becb-d684f8ed366b")
+	)
+	(pad "" np_thru_hole circle
+		(at 57.15 6.985 180)
+		(size 3.048 3.048)
+		(drill 3.048)
+		(layers "*.Cu" "*.Mask")
+		(uuid "3d798414-5ab0-4c37-a854-b2934cc0a7e0")
 	)
 	(pad "1" smd roundrect
 		(at 0.95 -1.155 270)
